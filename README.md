@@ -1,5 +1,9 @@
 # Object Detection
 
+Based on: 
+* [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/object_detection)
+* [Installation](https://github.com/tensorflow/models/blob/master/object_detection/g3doc/installation.md)
+
 ## Install Tensorflow:
 
     sudo pip install -U pip  
@@ -13,13 +17,12 @@ https://github.com/EN10/MNIST/blob/master/MoreExamples/installJupyter.txt
     sudo pip install jupyter
     sudo pip install matplotlib
     
-https://github.com/tensorflow/models/blob/master/object_detection/g3doc/installation.md
-    
 ## Download Model:
     svn export https://github.com/tensorflow/models/trunk/object_detection
 
 ## Install protoc
-    https://github.com/google/protobuf/releases
+https://github.com/google/protobuf/releases
+
     unzip protoc-3.4.0-linux-x86_64.zip -d protoc
     sudo mv protoc /usr/bin/protoc
     
