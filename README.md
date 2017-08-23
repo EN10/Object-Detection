@@ -17,20 +17,18 @@ https://github.com/EN10/MNIST/blob/master/MoreExamples/installJupyter.txt
     sudo pip install jupyter
     sudo pip install matplotlib
     
+## Download Model:
+
+    git clone https://github.com/tensorflow/models.git
+    
 ## Install Protobuf 2.6+
 As Ubuntu 14.04 has 2.5 download newer binary
 
-    wget https://github.com/EN10/Object-Detection/raw/master/protoc
-    sudo mv protoc /usr/bin/protoc
-    
-Source: https://github.com/google/protobuf/releases
-    
+    wget https://github.com/google/protobuf/releases/download/v3.4.0/protoc-3.4.0-linux-x86_64.zip
     unzip protoc-3.4.0-linux-x86_64.zip -d protoc
-
-## Download Model:
-Only object_detection folder needed:
-
-    svn export https://github.com/tensorflow/models/trunk/object_detection
+    sudo mv ./protoc/bin/protoc /usr/bin/protoc
+    chmod a+x /usr/bin/protoc
+    protoc object_detection/protos/*.proto --python_out=.
 
 ## Run
 
