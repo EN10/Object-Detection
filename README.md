@@ -41,6 +41,12 @@ As Ubuntu 14.04 has 2.5 download newer binary
 https://object-detection-eniof.cs50.io/notebooks/object_detection_tutorial.ipynb
 * `Cell - Run All`
 
+## Run Without Jupyter
+    
+    mv detect.py ./object_detection/detect.py
+    cd ./object_detection
+    python detect.py
+    
 ## Tensorflow Performance
 
 https://github.com/EN10/TensorFlow-For-Poets#performance
