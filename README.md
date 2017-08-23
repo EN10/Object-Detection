@@ -37,7 +37,7 @@ As Ubuntu 14.04 has 2.5 download newer binary
     protoc object_detection/protos/*.proto --python_out=.
 
 ## Run
-    cd models/object_detection
+    cd object_detection
     jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser
 https://object-detection-eniof.cs50.io/notebooks/object_detection_tutorial.ipynb
 * `Cell - Run All`
