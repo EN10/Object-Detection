@@ -18,6 +18,11 @@ https://github.com/EN10/MNIST/blob/master/MoreExamples/installJupyter.txt
     sudo pip install matplotlib
     
 ## Download Model:
+Only object_detection folder needed:
+
+    svn export https://github.com/tensorflow/models/trunk/object_detection
+
+Subset of:
 
     git clone https://github.com/tensorflow/models.git
     
