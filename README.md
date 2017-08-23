@@ -14,6 +14,9 @@ https://github.com/EN10/MNIST/blob/master/MoreExamples/installJupyter.txt
 
     sudo pip install pillow
     sudo pip install lxml
+    
+Can run without jupyter or matplotlib see below
+    
     sudo pip install jupyter
     sudo pip install matplotlib
     
