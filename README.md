@@ -9,7 +9,7 @@ Based on:
     sudo pip install -U pip  
     sudo pip install tensorflow 
     
-## Install Jupyter
+## Install dependencies 
 https://github.com/EN10/MNIST/blob/master/MoreExamples/installJupyter.txt
 
     sudo pip install pillow
@@ -41,7 +41,7 @@ As Ubuntu 14.04 has 2.5 download newer binary
 https://object-detection-eniof.cs50.io/notebooks/object_detection_tutorial.ipynb
 * `Cell - Run All`
 
-## Run Without Jupyter
+## Run Without jupyter or matplotlib
     
     mv detect.py ./object_detection/detect.py
     cd ./object_detection
