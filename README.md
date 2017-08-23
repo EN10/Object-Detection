@@ -27,7 +27,7 @@ Subset of:
     git clone https://github.com/tensorflow/models.git
     
 ## Install Protobuf 2.6+
-As Ubuntu 14.04 has 2.5 download newer binary
+Download newer binary as Ubuntu 14.04 has 2.5
 
     wget https://github.com/google/protobuf/releases/download/v3.4.0/protoc-3.4.0-linux-x86_64.zip
     unzip protoc-3.4.0-linux-x86_64.zip -d protoc
