@@ -33,7 +33,6 @@ As Ubuntu 14.04 has 2.5 download newer binary
     unzip protoc-3.4.0-linux-x86_64.zip -d protoc
     sudo mv ./protoc/bin/protoc /usr/bin/protoc
     chmod a+x /usr/bin/protoc
-    cd models/
     protoc object_detection/protos/*.proto --python_out=.
 
 ## Run
