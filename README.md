@@ -10,7 +10,6 @@ Based on:
     sudo pip install tensorflow 
     
 ## Install dependencies 
-https://github.com/EN10/MNIST/blob/master/MoreExamples/installJupyter.txt
 
     sudo pip install pillow
     sudo pip install lxml
@@ -19,6 +18,8 @@ Can run without jupyter or matplotlib see below
     
     sudo pip install jupyter
     sudo pip install matplotlib
+
+https://github.com/EN10/MNIST/blob/master/MoreExamples/installJupyter.txt
     
 ## Download Model:
 Only object_detection folder needed:
