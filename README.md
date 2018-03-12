@@ -1,8 +1,8 @@
 # Object Detection
 
 Based on: 
-* [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/object_detection)
-* [Installation](https://github.com/tensorflow/models/blob/master/object_detection/g3doc/installation.md)
+* [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+* [Installation](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 
 ## Install Tensorflow:
 
@@ -24,7 +24,7 @@ https://github.com/EN10/MNIST/blob/master/MoreExamples/installJupyter.txt
 ## Download Model:
 Only object_detection folder needed:
 
-    svn export https://github.com/tensorflow/models/trunk/object_detection
+    svn export https://github.com/tensorflow/models/trunk/research/object_detection
 
 Subset of:
 
