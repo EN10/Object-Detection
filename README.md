@@ -26,6 +26,9 @@ Only object_detection folder needed:
 
     svn export https://github.com/tensorflow/models/trunk/research/object_detection
 
+`/bin/sh: 1: svn: not found` then
+`!apt install -y subversion`
+
 Subset of:
 
     git clone https://github.com/tensorflow/models.git
@@ -33,8 +36,8 @@ Subset of:
 ## Install Protobuf 2.6+
 Download newer binary as Ubuntu 14.04 has 2.5
 
-    wget https://github.com/google/protobuf/releases/download/v3.4.0/protoc-3.4.0-linux-x86_64.zip
-    unzip protoc-3.4.0-linux-x86_64.zip -d protoc
+    wget https://github.com/google/protobuf/releases/download/v3.5.1/protoc-3.5.1-linux-x86_64.zip
+    unzip protoc-3.5.1-linux-x86_64.zip -d protoc
     sudo mv ./protoc/bin/protoc /usr/bin/protoc
     chmod a+x /usr/bin/protoc
     protoc object_detection/protos/*.proto --python_out=.
