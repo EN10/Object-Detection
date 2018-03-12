@@ -85,3 +85,7 @@ with detection_graph.as_default():
       # To File
       im = Image.fromarray(image_np)
       im.save("output.jpg")
+      
+      #Download colab
+      #from google.colab import files
+      #files.download('output.jpg')
