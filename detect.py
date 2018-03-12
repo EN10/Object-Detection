@@ -77,6 +77,11 @@ with detection_graph.as_default():
           category_index,
           use_normalized_coordinates=True,
           line_thickness=8)
-          
+
+      # Jupyter
+      #import matplotlib.pyplot as plt
+      #plt.imshow(image_np)
+
+      # To File
       im = Image.fromarray(image_np)
       im.save("output.jpg")
